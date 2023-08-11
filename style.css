@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@700&display=swap');
+/*font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(14, 14, 14);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    
+   
+}
+.image{
+    position: relative;
+}
+.foto{
+    height: 500px;
+    width: 500px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.part1{
+background-color: rgb(28, 25, 56);
+width: 500px;
+height: 500px;
+padding: 70px;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+transition: 3s;
+}
+.part2{
+    transition: 3s;
+}
+span{
+    color: rgb(158, 100, 203);
+}
+.tx{
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.ty{
+    font-size: 15px;
+    margin-bottom: 80px;
+    font-weight: 400;
+    color: rgb(140, 138, 159);
+    line-height: 25px
+    
+}
+.cordefundo{
+    position: absolute;
+    background-color: hsl(277, 64%, 61%);
+    top: 50;
+    left: 50;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.separar{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+.c1{
+   font-size: 25px;
+}
+.c2{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: rgb(140, 138, 159);
+
+}
+.image {
+    position: relative; 
+    display: inline-block;
+    
+  }
+  
+  .cordefundo {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: hsla(277, 55%, 43%, 0.514)
+  }
+@media screen and (max-width: 1000px){
+    .card{
+        flex-direction: column-reverse;
+        width: 350px;
+        height: 870px;
+    }
+    body{
+        justify-content: center;
+        align-items: normal;
+        align-content: center;
+    }
+    .foto{
+        width: 350px;
+        height: 300px;
+    }
+    .ty{
+        text-align: center;
+        font-size: 13px;
+    }
+    .part1{
+        width: 100%;
+        height: 570px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    
+    }
+    .tx{
+        font-size: 25px;
+    }
+    .separar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .ty{
+        margin-bottom: 40px;
+    }
+    .foto{
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .cordefundo{
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .c1{
+      font-size: 20px;
+    }
+    .c2{
+        font-size: 10px;
+        margin-bottom: 15px;
+
+    }
+    
+   
+
+}
