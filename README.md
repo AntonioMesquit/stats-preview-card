@@ -1,6 +1,6 @@
-# Frontend Mentor - Stats preview card component
+# Acesse o site clicando aqui!
 
-![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
+<a href="https://antoniomesquit.github.io/stats-preview-card/" target="_blank" rel="external"><img src="images/Screenshot 2023-08-11 134429.png" alt="site"></a>
 
 ## Welcome! 👋
 
